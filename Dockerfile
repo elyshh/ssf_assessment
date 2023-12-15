@@ -25,4 +25,4 @@ ENV SPRING_REDIS_USERNAME=NOT_SET SPRING_REDIS_PASSWORD=NOT_SET
 
 EXPOSE $PORT
 
-ENTRYPOINT SERVER_PORT=${PORT} java -jar ./app.jar —file=/app/events.json
+ENTRYPOINT SERVER_PORT=${PORT} java -jar ./app.jar —-file=/app/events.json
